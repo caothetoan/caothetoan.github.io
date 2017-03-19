@@ -7,10 +7,6 @@ tags: [music]
 lang: vi
 ---
 
-
-Mắt Biếc - TeA ft. PCGL (Bài nhạc được chuyển thể từ truyện dài của T.G Nguyễn Nhật Ánh)
-
-
 <iframe width="100%" src="https://www.youtube.com/embed/QDY4Gy_4eYw" frameborder="0" allowfullscreen></iframe>
 
 ** Lyrics:
