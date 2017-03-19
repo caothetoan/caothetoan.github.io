@@ -1,6 +1,6 @@
 ---
 layout: single
-title: My Projects
+title: my projects
 author_profile: true
 ---
 
