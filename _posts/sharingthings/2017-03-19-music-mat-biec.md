@@ -5,6 +5,7 @@ date:   2017-03-19
 categories: [dailysharing]
 tags: [music]
 lang: vi
+og_image: "https://vietanhdev.com/assets/img/music/matbiec.png"
 ---
 
 <iframe style="width: 560; height: 315; max-width: 100%; margin: 0 auto;" src="https://www.youtube.com/embed/QDY4Gy_4eYw" frameborder="0" allowfullscreen></iframe>
