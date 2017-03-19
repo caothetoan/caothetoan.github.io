@@ -4,22 +4,13 @@ permalink: /posts/
 author_profile: true
 ---
 
-<a href="#categories">View Blog Categories</a><br>
-
-<h2>Lastest posts</h2>
-
-{% for post in site.posts limit:5 %}
-    <p>&gt;&gt; <span style="font-size: 18px; font-weight: bold;"><a href="{{ post.url }}">{{ post.title }}</a></span></p>
-{% endfor %}
-
-
 <h2 id="categories" style="text-align: center; font-size: 48px;">Categories</h2>
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
-    {% endfor %}
+    {% if tag[0] != "dailysharing" %}
+        <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    {% endif %}
   </div>
   <hr/>
   <div class="tags-expo-section">
