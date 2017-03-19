@@ -9,9 +9,9 @@ lang: vi
 
 <iframe style="width: 560; height: 315; max-width: 100%; margin: 0 auto;" src="https://www.youtube.com/embed/QDY4Gy_4eYw" frameborder="0" allowfullscreen></iframe>
 
-** Lyrics:
+## Lyrics:
 
-*** Đọc 1 ( TeA ) :
+### Đọc 1 ( TeA ) :
 
 Thời giờ đã cuốn bay đi những ngày tuổi trẻ còn xanh ngời
 
@@ -58,7 +58,7 @@ Từng nghĩ hồi đó chỉ vô tình đưa em vào trang nhật hồng đời
 Nhưng tiếc là buồn nào mà dễ phai đâu phai ko mắt biếc ơi??
 
 
-*** Điệp Khúc 1 :
+### Điệp Khúc 1 :
 
 Đời mình còn là mấy thoáng..để cho tuổi hồng này qua đi
 
@@ -78,7 +78,7 @@ Anh thấy buồn lắm mắt biếc ơi..!!! ( Anh thấy buồn lắm Mắt Bi
 
 --------------------------------
 
-*** Đọc 2 ( PCGL ) :
+### Đọc 2 ( PCGL ) :
 
 Mắt biếc em chả nhìn thấy anh ! ... mắt biếc chỉ nghĩ về khoảng trời
 
@@ -112,7 +112,7 @@ Giá như em về lại với Tây Nguyên nghe núi rừng đang thở
 
 ..Nhưng mà thành phố hoa mĩ là nơi mà em đã chọn mùa lan nở
 
-*** Điệp Khúc 2 :
+### Điệp Khúc 2 :
 
 Oh ! Em từng yêu tôi chưa mắt biếc ơi ?
 
@@ -130,7 +130,7 @@ Oh ! Em nỡ quên tôi sao Mắt Biếc ơi !
 
 Thời gian chẳng níu tay em – [ hãy cứ để ] tình ta mãi miết trôi
 
-***
+###
 
 - 12/07/2016
 
