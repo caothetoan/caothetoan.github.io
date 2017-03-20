@@ -2,7 +2,7 @@
 layout: single
 title:  "Sống với đam mê hoặc một cuộc đời nhàm chán"
 date:   2016-04-01
-categories: [Cuộc sống]
+categories: [Sống]
 tags: [Đam mê]
 header:
   overlay_image: "/assets/img/cuoc-song/passion.jpg"
