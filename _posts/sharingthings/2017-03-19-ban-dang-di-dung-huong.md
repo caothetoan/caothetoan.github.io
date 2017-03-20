@@ -11,9 +11,9 @@ og_image: "https://vietanhdev.com/assets/img/cuoc-song/ban-dang-di-dung-huong.jp
 ---
 
 > **Link bài viết:** [https://www.facebook.com/thanh.akita/posts/10208865590339573?pnref=story](https://www.facebook.com/thanh.akita/posts/10208865590339573?pnref=story)
-
+>
 > Bài viết này được chia sẻ trên Facebook Trịnh Thành. Đôi khi việc so đo cuộc sống của bạn với cuộc sống của những người xung quanh sẽ làm bạn quên mất cuộc sống này là của riêng bạn. "Đừng để tâm thái quá bạn đang đi chậm hay đi nhanh, chỉ cần đi đúng hướng, trong lòng có niềm tin, nơi chúng ta muốn đến nhất định có phong cảnh tươi đẹp nhất."
-
+>
 > Sau đây là một đoạn trích từ bài viết:
 
 Bạn không đi chậm, bạn không đi nhanh, bạn đang đi đúng hướng!
