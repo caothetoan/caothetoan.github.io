@@ -3,7 +3,7 @@ layout: single
 title:  "Kinh nghiệm tạo website cá nhân với Jekyll (tiếp)"
 subtitle: "Thêm tên miền riêng, tạo trang categories, tags, tìm kiếm, Sitemap"
 date:   2016-09-26
-categories: [Jekyll]
+categories: [Web]
 tags: [Jekyll, website]
 permalink: /blogging/kinh-nghiem-tao-webiste-ca-nhan-voi-jekyll-lv2/
 header:

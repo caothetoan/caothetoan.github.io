@@ -2,7 +2,7 @@
 layout: single
 title:  "Lập trình viên nên tạo website cá nhân"
 date:   2016-09-01
-categories: [Nên làm]
+categories: [Web]
 tags: [tạo website]
 permalink: /should-do/lap-trinh-vien-nen-tao-website-ca-nhan/
 ---
