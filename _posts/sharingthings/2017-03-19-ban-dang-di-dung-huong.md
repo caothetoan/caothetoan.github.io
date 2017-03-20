@@ -29,7 +29,7 @@ Bạn có thấy kỳ lạ không?</p>
 
 <p>Nhưng không, cách nghĩ tốt nhất chính là đừng nghĩ gì cả, hãy cứ chạy thôi, ngẩng cao đầu chạy thẳng về phía trước trên làn đường của bạn.</p>
 
-<div class="vadev-hide">
+<vadev class="vadev-hide">
 
 <p>Đừng thắc mắc vì sao cậu bạn kia 25 tuổi đã là CEO. Đừng nguýt mũi ghen tỵ và kiếm lý do không công nhận thành tích của người khác như kiểu “Vì bố nó là chủ tịch”, cũng đừng than thở “Cậu ấy quá giỏi và mình thì không bao giờ có thể giỏi như thế”. Càng đừng tự vấn “Tại sao mình cũng 25 tuổi mà không trở thành CEO được như cậu ta?”</p>
 
@@ -55,5 +55,5 @@ Và, kể cả không đặt chân được tới vạch đích đã định, th
 
 <p>Thế giới này là nơi chỉ dành cho những kẻ sẵn sàng nhấc chân lên trải nghiệm, sẵn sàng trả giá, sẵn sàng chịu trách nhiệm cho mọi quyết định của đời mình, sẵng sàng nghĩ khác đi và sống đúng với bản ngã. Và nếu như chúng ta phải chịu trách nhiệm về trải nghiệm của chính mình, thì phải trải nghiệm nó một cách xứng đáng nhất.</p>
 
-</div>
+</vadev>
 
