@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : # "en"
+locale                   : "vi"
 title                    : "Nguyễn Việt Anh"
 title_separator          : "-"
 name                     : "Viet Anh Nguyen"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Viet Anh Nguyen"
   avatar           : "https://s.gravatar.com/avatar/220fb47fcaaa41b9b06d366a44615a4e?s=250" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student / Blogger / Developer"
+  bio              : "love coding, love life"
   location         : "Hanoi, VN"
   email            : "vietanh@vietanhdev.com"
   uri              : "https://vietanhdev.com"
