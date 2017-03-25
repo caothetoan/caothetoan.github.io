@@ -132,34 +132,37 @@ permalink: /testchat/
     }
   }
 </style>
-<body>
-  <div class="chatbox-wrapper">
+<!--   `<div class="chatbox-wrapper">
     <div class="title">
       <i class="fa fa-user-o" aria-hidden="true"></i>
       <span>Jarvis</span>
       <span class="toggle-chat" role="button">Close</span>
     </div>
     <div class="messages">
-      <div class="message u1"><span class="content">Hi! Viet Anh</span><span class="ff"></span></div>
-      <div class="message u2"><span class="content">Good morning! Hien!! How are you today?</span><span class="ff"></span></div>
-      <div class="message u1"><span class="content">I'm fine. thanks.</span><span class="ff"></span></div>
-      <div class="message u2"><span class="content">Hi! hoajksdasbdbask
-    dbas kj dbasjkb djasdddddjdjdjjdjdjdjjdjbjkdajksdjbasjkdjaskd asdjas da sd as d as das d as d 1 sd as da sd a sd as d as d as d as d as d asd w are you?</span><span class="ff"></span></div>
-      <div class="message u1"><span class="content">Hi! hoajksdasbdbask
-    dbas kj dbasjkb djasdddddjdjdjjdjdjdjjdjbjkdajksdjbasjkdjaskd asdjas da sd as d as das d as d 1 sd as da sd a sd as d as d as d as d as d asd w are you?</span><span class="ff"></span></div>
-      <div class="message u2"><span class="content">Hi! hoajksdasbdbask
-    dbas kj dbasjkb djasdddddjdjdjjdjdjdjjdjbjkdajksdjbasjkdjaskd asdjas da sd as d as das d as d 1 sd as da sd a sd as d as d as d as d as d asd w are you?</span><span class="ff"></span></div>
-    </div>
     <div class="sendbox">
       <input type="text" class="newmessage" placeholder="type and enter">
       <button class="send"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
     </div>
-  </div>
-
+  </div>`
+ -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
   <script type="text/javascript">
   $(document).ready(function() {
+    //Append chat into page
+    var chatHtml = `<div class="chatbox-wrapper">
+    <div class="title">
+      <i class="fa fa-user-o" aria-hidden="true"></i>
+      <span>Jarvis</span>
+      <span class="toggle-chat" role="button">Close</span>
+    </div>
+    <div class="messages">
+    <div class="sendbox">
+      <input type="text" class="newmessage" placeholder="type and enter">
+      <button class="send"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+    </div>
+  </div>`;
+    $('body').append(chatHtml);
 
     // Scroll to last message
     $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
