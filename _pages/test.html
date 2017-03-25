@@ -189,13 +189,13 @@ permalink: /testchat/
     var currUser = 1;
     $('.chatbox-wrapper .send').click(function() {
       
-      if (currUser == 1) {
-        addMessage(1, $('.sendbox .newmessage').val());
-        currUser = 2;
-      } else {
+      // if (currUser == 1) {
+      //   addMessage(1, $('.sendbox .newmessage').val());
+      //   currUser = 2;
+      // } else {
         addMessage(2, $('.sendbox .newmessage').val());
         currUser = 1;
-      }
+      // }
 
       // Scroll to last message
       $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
