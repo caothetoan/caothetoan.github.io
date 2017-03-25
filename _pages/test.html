@@ -31,6 +31,7 @@ permalink: /testchat/
 
 
 <style type="text/css">
+
   .chatbox-wrapper * {
     font-size: 14px;
     outline: none;
@@ -122,8 +123,14 @@ permalink: /testchat/
   .chatbox-wrapper .sendbox .send:hover {
       color: #333;
   }
-  
 
+  @media all and (max-width: 480px) {
+    .chatbox-wrapper {
+      width: 100%;
+      max-width: initial;
+      right: 0;
+    }
+  }
 </style>
 <body>
   <div class="chatbox-wrapper">
