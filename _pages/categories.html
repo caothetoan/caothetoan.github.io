@@ -44,7 +44,7 @@ permalink: /testchat/
     max-height: 100%;
     border: 1px solid rgb(64, 128, 255);
     border-radius: 4px 4px 0 0;
-    z-index: 1000;
+    z-index: 2000;
   }
   .chatbox-wrapper .title {
     font-family: "Maven Pro",-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
@@ -202,6 +202,13 @@ permalink: /testchat/
         $('.messages').append('<div class="message u2"><span class="ff"></span><span class="content">'+message+'</span></div>');
       }
     }
+
+    window.addEventListener("load",function() {
+        setTimeout(function(){
+            // This hides the address bar:
+            window.scrollTo(0, 1);
+        }, 0);
+    });
 
   });
   </script>
