@@ -94,7 +94,6 @@
 
 @media all and (max-width: 480px) {
   .chatbox-wrapper {
-    height: 100%;
     width: 100%;
     max-width: initial;
     right: 0;
