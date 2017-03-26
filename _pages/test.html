@@ -203,15 +203,16 @@ permalink: /testchat/
           dataType: "json",
           success: function (data) {
               console.log(data);
-              addMessage(1, data.reply);
+              if (data.reply != '') {
+                addMessage(1, data.reply);
+                // Scroll to last message
+                $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
+              }
           },
           error: function (xhr, status) {
               alert("error");
           }
       });
-
-      // Scroll to last message
-       $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
     });
 
     // Click chat title bar
