@@ -195,11 +195,25 @@ permalink: /testchat/
       $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
       $('.sendbox .newmessage').val('');
 
-      $.post('https://vbot-api.herokuapp.com/chat',
-      {message: message},
-      function( data ) {
-          addMessage(1, data.reply);
+      $.ajax({
+          url: "https://vbot-api.herokuapp.com/chat",
+          type: "POST",
+          crossDomain: true,
+          data: JSON.stringify({message: message}),
+          dataType: "json",
+          success: function (data) {
+              var datap = JSON.parse(data)
+              addMessage(1, datap.reply);
+          },
+          error: function (xhr, status) {
+              alert("error");
+          }
       });
+
+
+
+
+
       // Scroll to last message
        $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
     });
