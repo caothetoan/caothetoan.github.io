@@ -202,17 +202,13 @@ permalink: /testchat/
           data: JSON.stringify({message: message}),
           dataType: "json",
           success: function (data) {
-              var datap = JSON.parse(data)
-              addMessage(1, datap.reply);
+              console.log(data);
+              addMessage(1, data.reply);
           },
           error: function (xhr, status) {
               alert("error");
           }
       });
-
-
-
-
 
       // Scroll to last message
        $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
