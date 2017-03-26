@@ -199,7 +199,7 @@ permalink: /testchat/
           url: "https://vbot-api.herokuapp.com/chat",
           type: "POST",
           crossDomain: true,
-          data: {'message': message},
+          data: {"message": JSON.stringify(message)},
           dataType: "json",
           success: function (data) {
               console.log(data);
