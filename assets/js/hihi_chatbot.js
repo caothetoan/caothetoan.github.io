@@ -3,7 +3,7 @@ $(document).ready(function() {
   var chatHtml = '<div class="chatbox-wrapper">';
   chatHtml += '<div class="title">';
   chatHtml += '<i class="fa fa-user-o" aria-hidden="true"></i>';
-  chatHtml += '<span> Não cá</span>';
+  chatHtml += '<span> MaxXam</span>';
   chatHtml += '<span class="toggle-chat" role="button">Open</span>';
   chatHtml += '</div>';
   chatHtml += '<div class="messages"></div>';
