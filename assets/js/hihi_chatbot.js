@@ -2,8 +2,10 @@ $(document).ready(function() {
       io.sails.url = 'https://vbot-api.herokuapp.com';
       io.socket.post('https://vbot-api.herokuapp.com/chat', { 'mode': 'test' }, function (data, jwRes) {
           if (jwRes.statusCode != 200) {
-             addMessage(1, "Connection error!");
-          }; // => 200
+              addMessage(1, "Connection error!");
+          } else {
+              addMessage(1, "--&gt; thiết lập kết nối thành công &lt;--");
+          }
       });
 
       io.socket.on('newmessage', function (data){
@@ -29,12 +31,6 @@ $(document).ready(function() {
   chatHtml += '</div>';
   $('body').append(chatHtml);
 
-
-  // Say Hello
-  addMessage(1, 'Xin chào! Tôi là Vi Vi, Chatbot của page này.');
-  addMessage(1, 'Tôi có thể trò chuyện cùng bạn. Và cung cấp một số dịch vụ web.');
-  addMessage(1, '+ Tra tên Katakana (tên tiếng Nhật) bằng cách gõ tkn &lt;tên bạn&gt;');
-  addMessage(1, '+ Nhận trợ giúp bằng cách gõ "help"');
 
   // Scroll to last message
   $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
@@ -77,8 +73,8 @@ $('.chatbox-wrapper .send').click(function() {
     // });
 
     io.socket.post('/chat', { 'message': message }, function (data, jwRes) {
-    jwRes.statusCode; // => 200
-    if (data.reply != '') {
+      jwRes.statusCode; // => 200
+      if (data.reply != '') {
         addMessage(1, data.reply);
         // Scroll to last message
         $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
