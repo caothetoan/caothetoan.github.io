@@ -1,6 +1,6 @@
 $(document).ready(function() {
       io.sails.url = 'https://vbot-api.herokuapp.com';
-      io.socket.post('/chat', { 'mode': 'test' }, function (data, jwRes) {
+      io.socket.post('https://vbot-api.herokuapp.com/chat', { 'mode': 'test' }, function (data, jwRes) {
           if (jwRes.statusCode != 200) {
              addMessage(1, "Connection error!");
           }; // => 200
