@@ -1,9 +1,24 @@
 $(document).ready(function() {
+      io.sails.url = 'https://vietanhdev.com/chat';
+      io.socket.post('/chat', { 'mode': 'test' }, function (data, jwRes) {
+          if (jwRes.statusCode != 200) {
+             addMessage(1, "Connection error!");
+          }; // => 200
+      });
+
+      io.socket.on('newmessage', function (data){
+        addMessage(1, data.reply);
+          // Scroll to last message
+          $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
+      });
+
+
+
   // Append chat into page
   var chatHtml = '<div class="chatbox-wrapper">';
   chatHtml += '<div class="title">';
   chatHtml += '<i class="fa fa-user-o" aria-hidden="true"></i>';
-  chatHtml += '<span> MaxXam</span>';
+  chatHtml += '<span> Chat</span>';
   chatHtml += '<span class="toggle-chat" role="button">Open</span>';
   chatHtml += '</div>';
   chatHtml += '<div class="messages"></div>';
@@ -16,10 +31,10 @@ $(document).ready(function() {
 
 
   // Say Hello
-  // addMessage(1, 'Hello! I\'m the chatbot of this page.');
-  // addMessage(1, 'If you want to search something or ask about this page, feel free to ask me. I can try to answer your questions or send them to my boss - Viet Anh.');
-  addMessage(1, 'Chào bạn! Tôi là chatbot của trang này.');
-  addMessage(1, 'Bạn có thể đặt câu hỏi hoặc trò chuyện tại đây. Chatbot đang được hoàn thành nên có thể chưa đầy đủ chức năng hoặc gặp nhiều lỗi nhỏ.');
+  addMessage(1, 'Xin chào! Tôi là Vi Vi, Chatbot của page này.');
+  addMessage(1, 'Tôi có thể trò chuyện cùng bạn. Và cung cấp một số dịch vụ web.');
+  addMessage(1, '+ Tra tên Katakana (tên tiếng Nhật) bằng cách gõ tkn &lt;tên bạn&gt;');
+  addMessage(1, '+ Nhận trợ giúp bằng cách gõ "help"');
 
   // Scroll to last message
   $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
@@ -42,24 +57,38 @@ $('.chatbox-wrapper .send').click(function() {
     $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
     $('.sendbox .newmessage').val('');
 
-    $.ajax({
-        url: "https://vbot-api.herokuapp.com/chat",
-        type: "POST",
-        crossDomain: true,
-        data: {"message": message},
-        dataType: "json",
-        success: function (data) {
-            console.log(data);
-            if (data.reply != '') {
-              addMessage(1, data.reply);
-              // Scroll to last message
-              $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
-            }
-        },
-        error: function (xhr, status) {
-            alert("error");
-        }
-    });
+    // $.ajax({
+    //     url: "https://vbot-api.herokuapp.com/chat",
+    //     type: "POST",
+    //     crossDomain: true,
+    //     data: {"message": message},
+    //     dataType: "json",
+    //     success: function (data) {
+    //         console.log(data);
+    //         if (data.reply != '') {
+    //           addMessage(1, data.reply);
+    //           // Scroll to last message
+    //           $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
+    //         }
+    //     },
+    //     error: function (xhr, status) {
+    //         alert("error");
+    //     }
+    // });
+
+    io.socket.post('/chat', { 'message': message }, function (data, jwRes) {
+    jwRes.statusCode; // => 200
+    if (data.reply != '') {
+        addMessage(1, data.reply);
+        // Scroll to last message
+        $('.messages').animate({scrollTop: $('.messages').prop("scrollHeight")}, 500);
+    }
+
+  });
+
+
+
+
   });
 
   // Click chat title bar
