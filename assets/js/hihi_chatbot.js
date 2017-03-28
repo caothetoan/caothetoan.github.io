@@ -1,5 +1,5 @@
 $(document).ready(function() {
-      io.sails.url = 'https://vietanhdev.com/chat';
+      io.sails.url = 'https://vietanhdev.com';
       io.socket.post('/chat', { 'mode': 'test' }, function (data, jwRes) {
           if (jwRes.statusCode != 200) {
              addMessage(1, "Connection error!");
