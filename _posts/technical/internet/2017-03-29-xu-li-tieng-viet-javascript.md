@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Một số hàm xử lí tiếng Việt trong Javascript"
+title:  "Một số kĩ thuật xử lí tiếng Việt trong Javascript"
 date:   2017-03-29
 categories: [Javascript Hero, Web]
 tags: [javascript, ngôn ngữ, tiếng Việt]
