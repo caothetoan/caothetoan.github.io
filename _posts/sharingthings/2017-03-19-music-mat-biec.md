@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Mắt Biếc - TeA ft. PCGL (Bài nhạc được chuyển thể từ truyện dài của T.G Nguyễn Nhật Ánh)"
+title:  "Share: Mắt Biếc - TeA ft. PCGL (Bài nhạc được chuyển thể từ truyện dài của T.G Nguyễn Nhật Ánh)"
 date:   2017-03-19
 categories: [dailysharing]
 tags: [music]

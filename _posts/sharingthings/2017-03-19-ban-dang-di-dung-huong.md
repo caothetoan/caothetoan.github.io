@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Bạn không đi chậm, bạn không đi nhanh, bạn đang đi đúng hướng! - Facebook Trịnh Thành"
+title:  "Share: Bạn không đi chậm, bạn không đi nhanh, bạn đang đi đúng hướng! - Facebook Trịnh Thành"
 date:   2017-03-20
 categories: [dailysharing]
 tags: [sống]
