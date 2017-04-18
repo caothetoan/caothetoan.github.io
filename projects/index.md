@@ -23,11 +23,11 @@ projects:
   <div class="caption">
     <h3>{{ project.title }}</h3>
     <p>{{ project.description }}</p>
-      {% for button in project.buttons %}
-        <p>
-          <a href="{{ button.link }}" class="btn btn-primary" role="button">{{ button.text }}</a>
-        </p>
-      {% endfor %}
+      <p>
+        {% for button in project.buttons %}
+        <a href="{{ button.link }}" class="btn btn-primary" role="button">{{ button.text }}</a>
+        {% endfor %}
+      </p>
   </div>
 </div>
 {% endfor %}
