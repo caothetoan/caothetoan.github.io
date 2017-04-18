@@ -4,6 +4,7 @@ title: my projects
 author_profile: true
 
 projects:
+
   - title: "beNice17 theme"
     description: "A Jekyll theme focusing on light-weight &amp; responsive. Suitable for personal websites & blogs."
     img: "https://raw.githubusercontent.com/vietanhdev/beNice17/master/screenshots/beNice17_530x300.png"
@@ -12,8 +13,72 @@ projects:
         link: "https://vietanhdev.com/beNice17/"
       - text: "Source code"
         link: "https://github.com/vietanhdev/beNice17"
+
+  - title: "Từ điển hiDictionary"
+    description: "An online dictionary site using json technology. Quick search is available."
+    img: "https://vietanhdev.com/hiDictionary/screenshot.png"
+    buttons:
+      - text: "Demo"
+        link: "https://vietanhdev.com/hiDictionary/"
+      - text: "Source code"
+        link: "https://github.com/vietanhdev/hiDictionary/"
+
+  - title: "Online Pomodoro Timer"
+    description: "An useful timer for everyone using Pomodoro Technique to manage their time."
+    img: "https://raw.githubusercontent.com/vietanhdev/Pomodoro-Timer/master/screenshot.png"
+    buttons:
+      - text: "Demo"
+        link: "https://vietanhdev.com/Pomodoro-Timer/"
+      - text: "Source code"
+        link: "https://github.com/vietanhdev/Pomodoro-Timer/"
+
+  - title: "Minesweeper game"
+    description: "Minesweeper game written in C after some days learning C programming at university."
+    img: "https://raw.githubusercontent.com/vietanhdev/minesweeper-in-c/master/screenshot.png"
+    buttons:
+      - text: "Source code"
+        link: "https://github.com/vietanhdev/minesweeper-in-c"
+
+  - title: "Online Caro game"
+    description: "A single player gomoku game (or "cờ caro" in Vietnamese)."
+    img: "https://github.com/vietanhdev/van-caro-online/raw/master/screenshot.png"
+    buttons:
+      - text: "Demo"
+        link: "https://vietanhdev.com/projects/caro/"
+      - text: "Source code"
+        link: "https://github.com/vietanhdev/van-caro-online"
+
+  - title: "Line98 (2015)"
+    description: "Line98 written in AutoIT Script"
+    img: "https://github.com/vietanhdev/line98/raw/master/screenshot.png"
+    buttons:
+      - text: "Download & Source code"
+        link: "https://github.com/vietanhdev/line98"
+
+  - title: "MiniChess (2014)"
+    description: "Chess game written in AutoIT Script"
+    img: "https://github.com/vietanhdev/minichess/raw/master/screenshot.png"
+    buttons:
+      - text: "Download & Source code"
+        link: "https://github.com/vietanhdev/minichess"
+
+  - title: "2048"
+    description: "2048 game written in Pascal"
+    img: "https://vietanhdev.com/projects/2048-pascal/2048.png"
+    buttons:
+      - text: "Download"
+        link: "https://vietanhdev.com/projects/2048-pascal/2048.zip"
 ---
 
+<style media="screen">
+  .project {
+    width: 50%;
+    max-width: 500px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+</style>
 
 {% for project in page.projects %}
 <div class="project">
@@ -31,117 +96,3 @@ projects:
   </div>
 </div>
 {% endfor %}
-
-
-<style media="screen">
-  .project {
-    width: 50%;
-    max-width: 500px;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
-}
-</style>
-
-
-
-
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://vietanhdev.com/hiDictionary/screenshot.png" alt="từ điển hiDictionary">
-    </div>
-    <div class="caption">
-        <h3>Từ điển hiDictionary</h3>
-        <p>An online dictionary site using json technology. Quick search is available.</p>
-        <p><a href="https://vietanhdev.com/hiDictionary/" class="btn btn-primary" role="button">Link</a> <a href="https://github.com/vietanhdev/hiDictionary/" class="btn btn-primary" role="button">Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://raw.githubusercontent.com/vietanhdev/Pomodoro-Timer/master/screenshot.png" alt="Online Pomodoro Timer">
-    </div>
-    <div class="caption">
-        <h3>Online Pomodoro Timer</h3>
-        <p>An useful timer for everyone using Pomodoro Technique to manage their time.</p>
-        <p><a href="https://vietanhdev.com/Pomodoro-Timer/" class="btn btn-primary" role="button">Link</a> <a href="https://github.com/vietanhdev/Pomodoro-Timer/" class="btn btn-primary" role="button">Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://vietanhdev.com/projects/hiChess/screenshot.png" alt="hiChess - giao diện trang chơi cờ">
-    </div>
-    <div class="caption">
-        <h3>hiChess - UI for Chess site</h3>
-        <p>This is only an UI using AI from <a href="http://1kchess.an3.es/">1k Chess</a> to play.</p>
-        <p><a href="https://vietanhdev.com/projects/hiChess/" class="btn btn-primary" role="button">Demo</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://raw.githubusercontent.com/vietanhdev/minesweeper-in-c/master/screenshot.png" alt="Minesweeper dò mìn">
-    </div>
-    <div class="caption">
-        <h3>Minesweeper game</h3>
-        <p>Minesweeper game written in C after some days learning C programming at university.</p>
-        <p><a href="https://github.com/vietanhdev/minesweeper-in-c" class="btn btn-primary" role="button">Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://github.com/vietanhdev/van-caro-online/raw/master/screenshot.png" alt="Caro Javascript">
-    </div>
-    <div class="caption">
-        <h3>Online Caro game</h3>
-        <p>A single player gomoku game (or "cờ caro" in Vietnamese).</p>
-        <p><a href="https://vietanhdev.com/projects/caro/" class="btn btn-primary" role="button">Demo</a> <a href="https://github.com/vietanhdev/van-caro-online" class="btn btn-primary" role="button">Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://github.com/vietanhdev/line98/raw/master/screenshot.png" alt="Line 98">
-    </div>
-    <div class="caption">
-        <h3>Line98 (2015)</h3>
-        <p>Line98 written in AutoIT Script</p>
-        <p><a href="https://github.com/vietanhdev/line98" class="btn btn-primary" role="button">Download &amp; Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://github.com/vietanhdev/tic-tac-toe/raw/master/screenshot.jpg" alt="Tic Tac Toe">
-    </div>
-    <div class="caption">
-        <h3>TicTacToe game (2015)</h3>
-        <p>TicTacToe game written in AutoIT Script</p>
-        <p><a href="https://github.com/vietanhdev/tic-tac-toe" class="btn btn-primary" role="button">Download &amp; Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://github.com/vietanhdev/minichess/raw/master/screenshot.png" alt="Chess Game">
-    </div>
-    <div class="caption">
-        <h3>MiniChess (2014)</h3>
-        <p>Chess game written in AutoIT Script</p>
-        <p><a href="https://github.com/vietanhdev/minichess" class="btn btn-primary" role="button">Download &amp; Source code</a>
-        </p>
-    </div>
-</div>
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://vietanhdev.com/projects/2048-pascal/2048.png" alt="2048 Game">
-    </div>
-    <div class="caption">
-        <h3>2048</h3>
-        <p>2048 game written in Pascal</p>
-        <p><a href="https://vietanhdev.com/projects/2048-pascal/2048.zip" class="btn btn-primary" role="button">Download</a>
-        </p>
-    </div>
-</div>
