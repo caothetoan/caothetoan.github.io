@@ -2,7 +2,32 @@
 layout: single
 title: my projects
 author_profile: true
+
+projects:
+  - title: "Example title1"
+    description: "Example project"
+    img: "https://raw.githubusercontent.com/vietanhdev/beNice17/master/screenshots/beNice17_530x300.png"
+    buttons:
+      - text: "Download"
+        link: "https://vietanhdev.com"
 ---
+
+
+{% for project in page.projects %}
+    <div class="project">
+        <div class="thumbnail">
+            <img src="{{ project.img }}" alt="{{ project.title }}">
+        </div>
+        <div class="caption">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            {% for button in project.buttons %}
+                <p><a href="{{ button.link }}" class="btn btn-primary" role="button">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
 
 <style media="screen">
 	.project {
@@ -13,6 +38,14 @@ author_profile: true
 		box-sizing: border-box;
 }
 </style>
+
+
+
+
+
+
+
+
 
 <div class="project">
     <div class="thumbnail">
