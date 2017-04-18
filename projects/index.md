@@ -4,12 +4,14 @@ title: my projects
 author_profile: true
 
 projects:
-  - title: "Example title1"
-    description: "Example project"
+  - title: "beNice17 theme"
+    description: "A Jekyll theme focusing on light-weight &amp; responsive. Suitable for personal websites & blogs."
     img: "https://raw.githubusercontent.com/vietanhdev/beNice17/master/screenshots/beNice17_530x300.png"
     buttons:
-      - text: "Download"
-        link: "https://vietanhdev.com"
+      - text: "Demo"
+        link: "https://vietanhdev.com/beNice17/"
+      - text: "Source code"
+        link: "https://github.com/vietanhdev/beNice17"
 ---
 
 
@@ -17,13 +19,15 @@ projects:
 <div class="project">
   <div class="thumbnail">
     <img src="{{ project.img }}" alt="{{ project.title }}">
-    </div>
-    <div class="caption">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.description }}</p>
-        {% for button in project.buttons %}
-        <p><a href="{{ button.link }}" class="btn btn-primary" role="button">{{ button.text }}</a>
-        {% endfor %}
+  </div>
+  <div class="caption">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.description }}</p>
+      {% for button in project.buttons %}
+        <p>
+          <a href="{{ button.link }}" class="btn btn-primary" role="button">{{ button.text }}</a>
+        </p>
+      {% endfor %}
   </div>
 </div>
 {% endfor %}
@@ -40,24 +44,6 @@ projects:
 </style>
 
 
-
-
-
-
-
-
-
-<div class="project">
-    <div class="thumbnail">
-        <img src="https://raw.githubusercontent.com/vietanhdev/beNice17/master/screenshots/beNice17_530x300.png" alt="beNice17 theme">
-    </div>
-    <div class="caption">
-        <h3>beNice17 theme</h3>
-        <p>A Jekyll theme focusing on light-weight &amp; responsive. Suitable for personal websites & blogs.</p>
-        <p><a href="https://vietanhdev.com/beNice17/" class="btn btn-primary" role="button">Demo</a> <a href="https://github.com/vietanhdev/beNice17" class="btn btn-primary" role="button">Source code</a>
-        </p>
-    </div>
-</div>
 
 
 <div class="project">
