@@ -3,6 +3,12 @@ layout: single
 title: my projects
 author_profile: true
 projects:
+  - title: "Vivi chatbot"
+    description: "A chatbot implement using websocket for communicating between server-client and rivescript for AI"
+    img: "https://raw.githubusercontent.com/vietanhdev/websocket-chatbot-website/master/screenshot.png"
+    buttons:
+      - text: "Source code"
+        link: "https://github.com/vietanhdev/websocket-chatbot-website"
   - title: "beNice17 theme"
     description: "A Jekyll theme focusing on light-weight &amp; responsive. Suitable for personal websites & blogs."
     img: "https://raw.githubusercontent.com/vietanhdev/beNice17/master/screenshots/beNice17_530x300.png"
