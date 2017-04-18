@@ -34,7 +34,7 @@ projects:
       - text: "Source code"
         link: "https://github.com/vietanhdev/minesweeper-in-c"
   - title: "Online Caro game"
-    description: "A single player gomoku game (or "cờ caro" in Vietnamese)."
+    description: A single player gomoku game (or "cờ caro" in Vietnamese).
     img: "https://github.com/vietanhdev/van-caro-online/raw/master/screenshot.png"
     buttons:
       - text: "Demo"
