@@ -4,7 +4,7 @@ title: my projects
 author_profile: true
 projects:
   - title: "Vivi chatbot"
-    description: "A chatbot implement using websocket for communicating between server-client and rivescript for AI"
+    description: "A chatbot implemented using websocket for communicating between server-client and rivescript for AI"
     img: "https://raw.githubusercontent.com/vietanhdev/websocket-chatbot-website/master/screenshot.png"
     buttons:
       - text: "Source code"
