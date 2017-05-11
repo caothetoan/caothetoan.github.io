@@ -174,12 +174,15 @@
    ========================================================================== */
 
 .greedy-nav {
+  padding: 10px;
   position: relative;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
         align-items: center;
   background: $greedy-nav-bg;
+  border-radius: 5px;
+
 
   a {
     display: block;
