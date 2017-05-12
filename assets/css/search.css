@@ -36,7 +36,7 @@
 }*/ 
 
 input#gsc-i-id1 {
-    height: 40px;
+    height: 40px!important;
 }
 
 td.gsc-search-button {
@@ -44,6 +44,5 @@ td.gsc-search-button {
 }
 
 .gsc-input-box {
-    border-color: #fff;
-}
+    border-color: #fff!important;
 }
