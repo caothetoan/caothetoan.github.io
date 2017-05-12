@@ -412,8 +412,9 @@
 /* customized by vietanhdev */
 @include breakpoint($large) {
     article.page {
-    padding-top: 25px;
-    background: rgba(255,255,255,0.8);
-    border-radius: 10px;
-}
+      padding-top: 25px;
+      background: rgba(255,255,255,0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 0.625em 0.08em rgba(0,0,0,.05);
+    }
 }
