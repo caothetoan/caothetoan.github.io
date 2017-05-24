@@ -32,7 +32,7 @@ echo "deb http://ftp.debian.org/debian jessie-backports main" \
 Tôi gặp lỗi như sau khi chạy `apt-get update`:
 
 
-	W: GPG error: http://ftp.debian.org jessie-backports InRelease: The following signatures couldn’t be verified because the public key is not available: NO_PUBKEY 8B48AD6246925553 NO_PUBKEY 7638D0442B90D010
+> W: GPG error: http://ftp.debian.org jessie-backports InRelease: The following signatures couldn’t be verified because the public key is not available: NO_PUBKEY 8B48AD6246925553 NO_PUBKEY 7638D0442B90D010
 
 
 Hai khoá "8B48AD6246925553", "7638D0442B90D010" hiện ở thông báo lỗi cần được thêm vào gpg keyring.
