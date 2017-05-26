@@ -7,19 +7,3 @@
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1794997907410583";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Disqus comments -->
-<div id="disqus_thread"></div>
-<script>
-
-var disqus_config = function () {
-this.page.url = '{{ site.url }}{{ site.baseurl }}{{ css }}';
-this.page.identifier = '{{ site.url }}{{ site.baseurl }}{{ css }}';
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://vietanhdev.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>

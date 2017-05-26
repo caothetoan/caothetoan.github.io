@@ -1,18 +1,6 @@
 <div class="page__comments">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
-  {% when "discourse" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
-    <section id="discourse-comments"></section>
-  {% when "disqus" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
-    <section id="disqus_thread"></section>
-  {% when "facebook" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
-    <section class="fb-comments" data-href="{{ page.url | absolute_url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>
-  {% when "google-plus" %}
-    <h4 class="page__comments-title">{{ comments_label }}</h4>
-    <section class="g-comments" data-href="{{ page.url | absolute_url }}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</section>
   {% when "staticman" %}
     <section id="static-comments">
       {% if site.repository and site.staticman.branch %}
@@ -37,7 +25,8 @@
         <!-- Start new comment form -->
         <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
-        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.staticman.github_name }}/{{ site.staticman.github_repo }}/{{ site.staticman.github_branch }}">
+
           <div class="form__spinner">
             <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
             <span class="sr-only">{{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}</span>
@@ -49,7 +38,7 @@
             <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
           </fieldset>
           <fieldset>
-            <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
+            <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }}</label>
             <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
           </fieldset>
           <fieldset>
@@ -77,12 +66,12 @@
         <!-- End new comment form -->
       {% endif %}
     </section>
-  {% when "custom" %}
+
+    <!-- Facebook comment -->
     <h4 class="page__comments-title">Facebook comment</h4>
     <section id="custom-comments">
       <div class="fb-comments" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-numposts="5" data-width="100%"></div>
     </section>
-    <h4 class="page__comments-title">Disqus comment</h4>
-    <section id="disqus_thread"></section>
+    
   {% endcase %}
 </div>

@@ -32,7 +32,9 @@ comments:
     colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
+  github_name            : "vietanhdev"
+  github_repo            : "vietanhdev.github.io"
+  github_branch          : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
