@@ -9,6 +9,12 @@
   {% endfor %}		
 {% endif %}
 
+<script type="text/javascript">
+	$(document).ready(function() {
+		$.get("https://mail-gate-by-va.herokuapp.com/");
+	});
+</script>
+
 
 <script type="text/javascript">
 	var $contactForm = $('#comment-after-post');
