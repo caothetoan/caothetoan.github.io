@@ -2,13 +2,12 @@
 
     <!-- Staticman comment -->
     <section id="static-comments">
-    
+
         <!-- Start static comments -->
         <div class="js-comments">
           {% if site.data.comments[page.slug] %}
             <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
             {% assign comments = site.data.comments[page.slug] | sort %}
-
             {% for comment in comments %}
               {% assign email = comment[1].email %}
               {% assign name = comment[1].name %}
@@ -83,45 +82,6 @@
 
 
 
-    <script>
-    (function ($) {
-    var $comments = $('.js-comments');
-
-    $('#new_comment').submit(function () {
-      var form = this;
-
-      $(form).addClass('disabled');
-      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> {{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}');
-
-      $.ajax({
-        type: $(this).attr('method'),
-        url: $(this).attr('action'),
-        data: $(this).serialize(),
-        contentType: 'application/x-www-form-urlencoded',
-        success: function (data) {
-          $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submitted | default: "Submitted" }}');
-          $('.page__comments-form .js-notice').removeClass('notice--danger');
-          $('.page__comments-form .js-notice').addClass('notice--success');
-          showAlert('{{ site.data.ui-text[site.locale].comment_success_msg | default: "Thanks for your comment! It will show on the site once it has been approved." }}');
-        },
-        error: function (err) {
-          console.log(err);
-          $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submit  | default: "Submit Comment" }}');
-          $('.page__comments-form .js-notice').removeClass('notice--success');
-          $('.page__comments-form .js-notice').addClass('notice--danger');
-          showAlert('{{ site.data.ui-text[site.locale].comment_error_msg | default: "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again." }}');
-          $(form).removeClass('disabled');
-        }
-      });
-
-      return false;
-    });
-
-    function showAlert(message) {
-      $('.page__comments-form .js-notice').removeClass('hidden');
-      $('.page__comments-form .js-notice-text').html(message);
-    }
-  })(jQuery);
-  </script>
+    
 
 </div>
