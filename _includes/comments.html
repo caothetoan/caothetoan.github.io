@@ -2,20 +2,7 @@
 
     <!-- Staticman comment -->
     <section id="static-comments">
-        <!-- Start static comments -->
-        <div class="js-comments">
-            <h4 class="page__comments-title">Comments</h4>
-            {% assign comments = site.data.comments[page.slug] | sort %}
-            {% for comment in comments %}
-              {% assign email = comment[1].email %}
-              {% assign name = comment[1].name %}
-              {% assign url = comment[1].url %}
-              {% assign date = comment[1].date %}
-              {% assign message = comment[1].message %}
-              {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-            {% endfor %}
-        </div>
-        <!-- End static comments -->
+        
 
         <!-- Start new comment form -->
         <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
