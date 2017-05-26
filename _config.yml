@@ -20,7 +20,7 @@ includes:
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "custom" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "vietanhdev" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -37,8 +37,8 @@ staticman:
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
+  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['email', 'message']
   transforms:
     email                : "md5"
   generatedFields:
