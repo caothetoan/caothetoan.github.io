@@ -15,7 +15,7 @@
 
 	$contactForm.submit(function(e) {
 		e.preventDefault();
-		var $submit = $('button:submit', $contactForm);
+		var $submit = $('input:submit', $contactForm);
 		var defaultSubmitText = $submit.val();
 
 		$.ajax({
