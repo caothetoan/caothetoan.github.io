@@ -6,7 +6,7 @@ $contactForm.submit(function(e) {
 	var defaultSubmitText = $submit.val();
 
 	$.ajax({
-		url: 'https://formspree.io/contactform@vietanhdev.com',
+		url: '{{ site.mail_message_url }}',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
