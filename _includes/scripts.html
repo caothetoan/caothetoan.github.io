@@ -8,3 +8,36 @@
     <script src="{{ site.url }}{{ site.baseurl }}{{ js }}"></script>		
   {% endfor %}		
 {% endif %}
+
+
+<script type="text/javascript">
+	var $contactForm = $('#comment-after-post');
+
+	$contactForm.submit(function(e) {
+		e.preventDefault();
+		var $submit = $('button:submit', $contactForm);
+		var defaultSubmitText = $submit.val();
+
+		$.ajax({
+			url: '{{ site.mail_message_url }}',
+			method: 'POST',
+			data: $(this).serialize(),
+			dataType: 'json',
+			beforeSend: function() {
+				$submit.attr('disabled', true).val('Sending...');
+			},
+			success: function(data) {
+				$submit.val('Message sent!');
+				setTimeout(function() {
+					$submit.attr('disabled', false).val(defaultSubmitText);
+				}, 5000);
+			},
+			error: function(err) {
+				$submit.val('Ops, there was an error.');
+				setTimeout(function() {
+					$submit.attr('disabled', false).val(defaultSubmitText);
+				}, 5000);
+			}
+		});
+	});
+</script>

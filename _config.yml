@@ -51,6 +51,9 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+# For contact form
+mail_message_url         : "https://mail-gate-by-va.herokuapp.com/"
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
