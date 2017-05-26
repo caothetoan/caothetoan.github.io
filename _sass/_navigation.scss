@@ -53,6 +53,20 @@
 
 
 /*
+   Post pagination navigation links
+   ========================================================================== */
+
+.page__content,
+.page__meta,
+.page__share,
+.page__comments {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid $border-color;
+}
+
+
+/*
    Priority plus navigation
    ========================================================================== */
 
