@@ -1,3 +1,6 @@
+---
+layout: null
+---
 var $contactForm = $('#contact-form');
 
 $contactForm.submit(function(e) {
