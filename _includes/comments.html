@@ -1,12 +1,10 @@
 <div class="page__comments">
-  {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
 
-
+    <!-- Staticman comment -->
     <section id="static-comments">
         <!-- Start static comments -->
         <div class="js-comments">
-          {% if site.data.comments[page.slug] %}
-            <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
+            <h4 class="page__comments-title">Comments</h4>
             {% assign comments = site.data.comments[page.slug] | sort %}
             {% for comment in comments %}
               {% assign email = comment[1].email %}
@@ -61,7 +59,6 @@
           </fieldset>
         </form>
         <!-- End new comment form -->
-      {% endif %}
     </section>
 
     <!-- Facebook comments -->
@@ -74,9 +71,15 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     <h4 class="page__comments-title">Facebook comment</h4>
+
+
     <section id="custom-comments">
       <div class="fb-comments" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-numposts="5" data-width="100%"></div>
     </section>
+
+
+
+
 
 
     <script>
