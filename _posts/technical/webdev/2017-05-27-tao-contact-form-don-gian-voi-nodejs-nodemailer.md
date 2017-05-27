@@ -8,7 +8,7 @@ header:
   overlay_image: "/assets/img/webdev/contact-me.jpg"
 ---
 
-Nếu website của bạn sử dụng một CMS như Wordpress thì việc tạo contact form đã khá dễ dàng với các plug-in. Tuy nhiên nếu bạn đang có một website tĩnh, bạn sẽ cần một dịch vụ để xử lí các form liên hệ của bạn. Bài viết này sẽ hướng dẫn bạn tự tạo một backend đơn giản để xử lí các form liên hệ.
+Nếu website của bạn sử dụng một CMS như [Wordpress](https://wordpress.org/) thì việc tạo contact form đã khá dễ dàng với các plug-in. Tuy nhiên nếu bạn đang có một website tĩnh, bạn sẽ cần một dịch vụ để xử lí các form liên hệ của bạn. Bài viết này sẽ hướng dẫn bạn tự tạo một backend đơn giản để xử lí các form liên hệ.
 
 Form liên hệ của chúng ta sẽ hoạt động theo các nhận request từ  form theo method POST và gửi chúng đến email chính bằng [nodemailer](https://nodemailer.com/about/) của Nodejs.
 
@@ -18,13 +18,13 @@ Trước tiên bạn cần phải cài đặt Nodejs bằng cách truy cập và
 
 Nếu bạn đang dùng Ubuntu/Debian hay một hệ linux phổ biến khác thì Nodejs cũng có mặt trên kho phần mềm và có thể dễ dàng cài đặt bằng lệnh đơn giản như `sudo apt-get install nodejs` (Ubuntu Linux).
 
-## Step 2: Tạo Project mới (ở đây tôi gọi nó là mail-gate)
+## Step 2: Tạo Project mới (có thể là mail-gate)
 
 - Tạo một thư mục với tên dự án của bạn.
 
 - Dùng lệnh `npm init` trong thư mục và nhập các thông tin.s
 
-## Step 3: Viết code
+## Step 3: Viết code Nodejs
 
 Copy đoạn code sau vào file `index.js`. Bạn sửa phần `smtpConfig` là cấu hình chúng ta dùng để gửi mail. Bạn có thể đăng kí một tài khoản Gmail mới và nhập vào đó.
 
