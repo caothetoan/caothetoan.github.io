@@ -28,7 +28,7 @@
 		$.ajax({
 			url: '{{ site.mail_message_url }}',
 			method: 'POST',
-			data: $(this).serialize(),
+			data: $(this).serialize() + '&url=' + encodeURIComponent(window.location),
 			dataType: 'json',
 			beforeSend: function() {
 				$submit.attr('disabled', true).val('Sending...');
