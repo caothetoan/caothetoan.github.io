@@ -2,7 +2,7 @@
 layout: single
 title:  "Cấu hình Emacs để lập trình C"
 date:   2016-09-02
-categories: [Ngôn ngữ C, Emacs]
+categories: [C Language]
 tags: [ngôn ngữ c, Emacs, editor]
 permalink: /ngon-ngu-c/cau-hinh-emacs-de-lap-trinh-c/
 ---

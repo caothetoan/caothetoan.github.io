@@ -2,7 +2,7 @@
 layout: single
 title:  "Tạo email tên miền riêng! - Cách khẳng định thương hiệu"
 date:   2016-07-28
-categories: [Web]
+categories: [WebDev]
 tags: [tạo mail, tên miền riêng, domain]
 permalink: /how-to/tao-email-ten-mien-rieng/
 ---

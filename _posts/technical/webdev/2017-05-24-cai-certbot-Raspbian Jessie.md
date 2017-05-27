@@ -2,7 +2,7 @@
 layout: single
 title:  "Cài Certbot cho Raspbian Jessie"
 date:   2017-05-24
-categories: [WebDev, Techical]
+categories: [WebDev]
 tags: ["Raspbian", "Server", "Certbot", "LetsEncrypt"]
 header:
   overlay_image: "/assets/img/webdev/lets-encrypt.png"

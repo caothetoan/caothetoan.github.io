@@ -2,7 +2,7 @@
 layout: single
 title:  "A very simple guide to GNU Emacs"
 date:   2016-09-06
-categories: [Emacs]
+categories: [Code Editors]
 tags: [editor, guide]
 permalink: /emacs/a-very-simple-guide-to-emacs/
 lang: en

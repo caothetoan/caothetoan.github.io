@@ -2,7 +2,7 @@
 layout: single
 title:  "Cài đặt Geany – gcc làm môi trường soạn thảo và biên dịch ngôn ngữ C trên Ubuntu"
 date:   2016-07-27
-categories: [Ngôn ngữ C]
+categories: [C Language]
 tags: [ngôn ngữ c, geany, editor]
 permalink: /ngon-ngu-c/cai-dat-geany-gcc-bien-dich-c-tren-linux-ubuntu/
 ---

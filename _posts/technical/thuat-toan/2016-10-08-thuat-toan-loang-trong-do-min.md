@@ -2,7 +2,7 @@
 layout: single
 title:  "Thuật toán loang ứng dụng trong game dò mìn"
 date:   2016-10-08
-categories: [Thuật toán]
+categories: [Algorithms]
 tags: [Dò mìn, loang]
 permalink: /thuat-toan/thuat-toan-loang-trong-do-min/
 header:

@@ -2,7 +2,7 @@
 layout: single
 title:  "Giới thiệu serie học lập trình C"
 date:   2016-07-26
-categories: [Ngôn ngữ C]
+categories: [C Language]
 tags: [ngôn ngữ c, giới thiệu, introduction]
 permalink: /ngon-ngu-c/gioi-thieu-serie-hoc-lap-trinh-c/
 ---

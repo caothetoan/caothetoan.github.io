@@ -2,7 +2,7 @@
 layout: single
 title:  "Xây dựng thuật toán sinh mìn trong trò chơi dò mìn Minesweeper viết bằng C"
 date:   2016-10-07
-categories: [Thuật toán]
+categories: [Algorithms]
 tags: [Dò mìn, sinh, ngẫu nhiên]
 permalink: /thuat-toan/thuat-giai-sinh-min-trong-tro-choi-do-min-minesweeper/
 header:
