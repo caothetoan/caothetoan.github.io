@@ -134,7 +134,7 @@ git add .
 git commit -am "make it better"
 git push heroku master
 ~~~
-- Check xem app của bạn đã hoạt động ok chưa bằng các vào https://<ten-app-cua-ban>.herokuapp.com/ bằng trình duyệt. Nếu bạn nhìn thấy dòng "Home page. Server running okay." thì mọi thứ đã hoạt động tốt.
+- Check xem app của bạn đã hoạt động ok chưa bằng các vào h`ttps://<ten-app-cua-ban>.herokuapp.com/` bằng trình duyệt. Nếu bạn nhìn thấy dòng "Home page. Server running okay." thì mọi thứ đã hoạt động tốt.
 
 ![Hompage running okay](/assets/img/webdev/homepage-running-ok.png)
 
