@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Tạo contact form đơn giản với nodejs - nodemailer"
+title:  "Tạo contact form đơn giản với Nodejs - nodemailer"
 date:   2017-05-27
 categories: [WebDev]
-tags: ["Contact form", "nodejs", "nodemailer", "Jekyll"]
+tags: ["Contact form", "Nodejs", "nodemailer", "Jekyll"]
 header:
   overlay_image: "/assets/img/webdev/contact-me.jpg"
 ---
