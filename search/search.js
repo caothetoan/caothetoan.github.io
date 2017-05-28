@@ -72,6 +72,7 @@ $(document).ready(function() {
 
           // Build a snippet of HTML for this result
           var appendString = '<li><h3><a href="' + item.url + '">' + item.title + '</a></h3>';
+          appendString += '<p># ' + item.categories + '</p>';
           appendString += '<p>' + item.content.slice(0, 200) + '...</p></li>';
 
           // Add the snippet to the collection of results.
