@@ -9,6 +9,12 @@
   {% endfor %}		
 {% endif %}
 
+{% if page.ext-js %}		
+  {% for js in page.ext-js %}		
+    <script src="{{ js }}"></script>		
+  {% endfor %}		
+{% endif %}
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		$.get("https://mail-gate-by-va.herokuapp.com/");
