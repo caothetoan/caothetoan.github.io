@@ -5,7 +5,6 @@ $(document).ready(function() {
     this.field('id');
     this.field('title');
     this.field('content', { boost: 10 });
-    this.field('author');
     this.field('categories');
   });
 
@@ -53,7 +52,6 @@ $(document).ready(function() {
 
   function search() {
       var query = $("#search_box").val(); // Get the value for the text field
-      console.log(query);
       var results = window.idx.search(query); // Get lunr to perform a search
       display_search_results(results); // Hand the results off to be displayed
   }
