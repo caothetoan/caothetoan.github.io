@@ -8,5 +8,8 @@ main:
     url: "/projects/"
   - title: "my posts"
     url: "/posts/"
+  - title: "music i like"
+    url: "/music/"
+
   
   
