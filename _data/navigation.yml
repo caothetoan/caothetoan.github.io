@@ -2,8 +2,6 @@
 main:
   - title: "about me"
     url: "/"
-  - title: "contact"
-    url: "/contact/"
   - title: "my projects"
     url: "/projects/"
   - title: "my posts"
