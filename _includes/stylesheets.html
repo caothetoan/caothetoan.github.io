@@ -6,3 +6,9 @@
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}{{ css }}" />
   {% endfor %}
 {% endif %}
+
+{% if page.ext-css %}
+  {% for css in page.ext-css %}
+    <link rel="stylesheet" href="{{ css }}" />
+  {% endfor %}
+{% endif %}
