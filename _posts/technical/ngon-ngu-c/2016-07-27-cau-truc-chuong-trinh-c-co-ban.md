@@ -3,8 +3,7 @@ layout: single
 title:  "Cấu trúc chương trình C cơ bản"
 date:   2016-07-27
 categories: [C Language]
-tags: [ngôn ngữ c, cấu trúc chương trình, hello world]
-permalink: /ngon-ngu-c/cau-truc-chuong-trinh-c-co-ban/
+tags: [cấu trúc chương trình, hello world]
 ---
 
 **Các thành phần của một chương trình C cơ bản bao gồm:**

@@ -3,8 +3,7 @@ layout: single
 title:  "Toán tử trong C"
 date:   2016-07-28
 categories: [C Language]
-tags: [ngôn ngữ c, toán tử]
-permalink: /ngon-ngu-c/toan-tu-trong-c/
+tags: [toán tử]
 ---
 
 **Định nghĩa toán tử trong [Wikipedia]:**

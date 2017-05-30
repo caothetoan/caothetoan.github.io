@@ -3,8 +3,7 @@ layout: single
 title:  "Thiết lập Sublime Text 3 để biên dịch và chạy ngôn ngữ C"
 date:   2016-07-26
 categories: [C Language]
-tags: [ngôn ngữ c, Sublime Text, editor]
-permalink: /ngon-ngu-c/thiet-lap-sublime-text-3-de-bien-dich-va-chay-ngon-ngu-c/
+tags: [Sublime Text, editor]
 ---
 
 ## 1. Trước hết bạn phải tải và cài đặt Sublime Text 3:

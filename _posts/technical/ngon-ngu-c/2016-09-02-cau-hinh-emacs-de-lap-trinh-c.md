@@ -3,8 +3,7 @@ layout: single
 title:  "Cấu hình Emacs để lập trình C"
 date:   2016-09-02
 categories: [C Language]
-tags: [ngôn ngữ c, Emacs, editor]
-permalink: /ngon-ngu-c/cau-hinh-emacs-de-lap-trinh-c/
+tags: [Emacs, editor]
 ---
 
 Link hướng dẫn cài đặt và sử dụng các chức năng: [http://tuhdo.github.io/c-ide.html](http://tuhdo.github.io/c-ide.html)
