@@ -40,7 +40,7 @@ Khi chạy chương trình ta thu được kết quả sau:
 
 ![Trôi lệnh trong C - không có fflush](/assets/img/ngon-ngu-c/troi-lenh-trong-c.png)
 
-Rõ ràng xâu s đã không được nhập vào. Vấn đề này xảy ra do khi nhập c bằng `scanf()` thì kí tự `\n` vẫn còn lưu trong bộ đệm bàn phím. Khi lệnh nhập s (`fgets`) chạy nó gặp dấu `\n` trong bộ đệm do vậy trả luôn về một xâu rỗng.
+Rõ ràng xâu s đã không được nhập vào. Vấn đề này xảy ra do khi nhập c bằng `scanf()` thì kí tự `\n` vẫn còn lưu trong bộ đệm bàn phím. Khi lệnh nhập s (`fgets`) chạy, nó gặp kí tự `\n` trong bộ đệm do vậy trả luôn về một xâu chỉ chứa `\n`.
 
 ### Vậy khi sử dụng `fflush()` để làm sạch bộ đệm thì có vấn đề gì?
 Bạn có thể giải quyết vấn đề trôi lệnh trên Windows bằng cách thêm một lệnh `fflush()` vào trước `fgets()`. Tuy vậy khi chuyển chương trình sang Linux hoặc Mac OS thì nhiều khi lệnh này sẽ không còn hoạt động.
