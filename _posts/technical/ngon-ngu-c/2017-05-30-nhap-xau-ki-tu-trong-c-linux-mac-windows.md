@@ -51,7 +51,7 @@ Google một thời gian tôi cũng tìm được câu trả lời cho phương 
 
 ~~~c
 int ch;
-do { ch = getchar(); } while (ch != '\n' && c != EOF);
+do { ch = getchar(); } while (ch != '\n' && ch != EOF);
 ~~~
 
 Sử dụng trong chương trình bên trên thì có vẻ khá ổn. Tuy nhiên nếu trước đó không có số nguyên c được nhập thì sao? Có vẻ không ổn rồi! - Chương trình sẽ dừng lại, nhận vào một kí tự rồi mới tiếp tục chạy.
