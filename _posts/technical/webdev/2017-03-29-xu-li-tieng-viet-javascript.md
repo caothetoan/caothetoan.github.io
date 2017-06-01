@@ -8,6 +8,8 @@ tags: [javascript, ngôn ngữ, tiếng Việt]
 
 Các kĩ thuật xử lí sau sẽ giúp chúng ta thao tác với tiếng Việt dễ dàng hơn mà không cần mất công xây dựng lại.
 
+{% include toc title="Contents" %}
+
 ## Xoá dấu tiếng Việt
 
 Hàm xoa_dau() sau sẽ xoá loại bỏ hoàn toàn dấu câu tiếng Việt, không phân biệt hoa thường.
