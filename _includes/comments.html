@@ -21,10 +21,26 @@
 		</form>
 	</section>
 
+	<section>
+		<div id="disqus_thread"></div>
+		<script>
+		var disqus_config = function () {
+		this.page.url = "{{ page.url | absolute_url }}";
+		this.page.identifier = "{{ page.url }}";
+		};
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://vietanhdev.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</section>
 
 
 	<!-- Facebook comments -->
-	<div id="fb-root"></div>
+	<!-- <div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
 	if (d.getElementById(id)) return;
@@ -35,5 +51,5 @@
 	<h4 class="page__comments-title">Facebook comment</h4>
 	<section>
 		<div class="fb-comments" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-numposts="5" data-width="100%"></div>
-	</section>
+	</section> -->
 </div>
