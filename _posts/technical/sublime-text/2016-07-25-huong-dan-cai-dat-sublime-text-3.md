@@ -2,7 +2,7 @@
 layout: single
 title:  "Hướng dẫn cài đặt Sublime Text 3 cho Ubuntu và Windows"
 date:   2016-07-25
-categories: [Code Editors]
+categories: [Code-Editors]
 tags: [Sublime Text, editor, cài đặt]
 permalink: /Sublime-Text/huong-dan-cai-dat-sublime-text-3/
 ---

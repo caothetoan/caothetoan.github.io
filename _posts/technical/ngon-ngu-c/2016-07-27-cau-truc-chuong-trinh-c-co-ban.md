@@ -2,7 +2,7 @@
 layout: single
 title:  "Cấu trúc chương trình C cơ bản"
 date:   2016-07-27
-categories: [C Language]
+categories: [C-Language]
 tags: [cấu trúc chương trình, hello world]
 ---
 

@@ -2,7 +2,7 @@
 layout: single
 title:  "Toán tử trong C"
 date:   2016-07-28
-categories: [C Language]
+categories: [C-Language]
 tags: [toán tử]
 ---
 

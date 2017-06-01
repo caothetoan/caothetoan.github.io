@@ -2,7 +2,7 @@
 layout: single
 title:  "Thiết lập Sublime Text 3 để biên dịch và chạy ngôn ngữ C"
 date:   2016-07-26
-categories: [C Language]
+categories: [C-Language]
 tags: [Sublime Text, editor]
 ---
 

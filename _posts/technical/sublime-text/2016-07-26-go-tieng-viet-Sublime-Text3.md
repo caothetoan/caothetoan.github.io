@@ -2,7 +2,7 @@
 layout: single
 title:  "Gõ Tiếng Việt trong Sublime Text 3 - Linux Ubuntu với Vn Ime"
 date:   2016-07-26
-categories: [Code Editors]
+categories: [Code-Editors]
 tags: [Sublime Text, editor, gõ tiếng Việt]
 permalink: /Sublime-Text/go-tieng-viet-sublime-text-3/
 ---

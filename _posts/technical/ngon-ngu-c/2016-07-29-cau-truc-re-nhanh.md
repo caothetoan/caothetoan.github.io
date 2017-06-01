@@ -2,7 +2,7 @@
 layout: single
 title:  "Cấu trúc rẽ nhánh trong C"
 date:   2016-07-29
-categories: [C Language]
+categories: [C-Language]
 tags: [rẽ nhánh]
 ---
 

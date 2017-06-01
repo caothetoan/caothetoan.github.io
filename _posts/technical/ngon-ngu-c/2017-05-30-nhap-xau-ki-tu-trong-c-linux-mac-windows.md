@@ -2,7 +2,7 @@
 layout: single
 title:  "Một cách nhập xâu kí tự trong C - giải quyết vấn đề của fflush cho Linux, Mac OS"
 date:   2017-05-30
-categories: [C Language]
+categories: [C-Language]
 tags: [stdin, fflush, fgets]
 ---
 
