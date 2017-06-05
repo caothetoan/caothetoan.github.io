@@ -4,4 +4,19 @@
 
 <!-- <link rel="stylesheet" type="text/css" href="https://vietanhdev.com/assets/css/hihi_chatbot.css"> -->
 
+<style>
+	.main-masthead canvas{
+	  display:block;
+	  vertical-align:bottom;
+	  width: 100%;
+	}
+</style>
+
+<script src="/assets/particles/particles.min.js"></script>
+<script type="text/javascript">
+	particlesJS.load('main-masthead', '/assets/particles/particlesjs.json');
+	$("#main-masthead").css({'background-image':"url(" + $("#main-masthead canvas").toDataURL("image/png")+ ")" });
+</script>
+
 <!-- end custom head snippets -->
+
