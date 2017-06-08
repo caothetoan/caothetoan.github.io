@@ -5,7 +5,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }} <span class="blinking-cursor">_</span></a>
+        <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</br>
+            <p id="site-subtitle" style=" margin: 0; line-height: 1; font-size: 0.5em; font-weight: normal;
+                font-family: &quot;Maven Pro&quot;,-apple-system,&quot;.SFNSText-Regular&quot;,&quot;San Francisco&quot;,&quot;Roboto&quot;,&quot;Segoe UI&quot;,&quot;Helvetica Neue&quot;,&quot;Lucida Grande&quot;,Arial,sans-serif;
+            ">code everyday</p>
+        </a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
