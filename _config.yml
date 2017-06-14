@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "vi"
 title                    : "Cao Thế Toàn"
+slogan                   : "Share to be shared" 
 title_separator          : "-"
 name                     : "Cao The Toan"
 description              : "Share to be shared"
@@ -81,6 +82,11 @@ analytics:
     tracking_id          : "UA-6548520-1"
 
 
+
+
+about:
+  vietnamese:  "Tôi là Cao The Toan. Tôi là một lập trình viên."
+  english:  "I'm Cao The Toan. I'm a developer."
 # Site Author
 author:
   name             : "Cao The Toan"
