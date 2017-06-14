@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "vi"
-title                    : "Nguyễn Việt Anh"
+title                    : "Cao Thế Toàn"
 title_separator          : "-"
-name                     : "Viet Anh Nguyen"
-description              : "Website của Nguyễn Việt Anh - Lập trình viên - Blogger, một góc riêng của tôi trên Internet"
-url                      : "https://vietanhdev.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Cao The Toan"
+description              : "Share to be shared"
+url                      : "https://caothetoan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -22,18 +22,18 @@ words_per_minute         : 200
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : "vietanhdev" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "caothetoan" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : 1794997907410583
+    appid                : 312961822150334
     num_posts            : 5 # 5 (default)
     colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  github_name            : "vietanhdev"
-  github_repo            : "vietanhdev.github.io"
+  github_name            : "caothetoan"
+  github_repo            : "caothetoan.github.io"
   github_branch          : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -52,7 +52,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # For contact form
-mail_message_url         : "https://mail-gate-by-va.herokuapp.com/cfp"
+mail_message_url         : "https://mail-caothetoan.herokuapp.com/cfp"
 
 # SEO Related
 google_site_verification :
@@ -64,38 +64,38 @@ yandex_site_verification :
 twitter:
   username               :
 facebook:
-  username               : "vietanhdev"
-  app_id                 : "1794997907410583"
-og_image                 : "https://vietanhdev.com/assets/img/bigimg/shareimg.png" # Open Graph/Twitter default site image
+  username               : "caothetoan"
+  app_id                 : "312961822150334"
+og_image                 : "https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-1/c0.9.160.160/p160x160/18119253_10209039214918930_1560734026980977645_n.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person" # Person or Organization (defaults to Person)
-  name                   : "Viet Anh Nguyen" # If the user or organization name differs from the site's name
+  name                   : "Cao The Toan" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-78251251-1"
+    tracking_id          : "UA-6548520-1"
 
 
 # Site Author
 author:
-  name             : "Viet Anh Nguyen"
-  avatar           : "https://s.gravatar.com/avatar/220fb47fcaaa41b9b06d366a44615a4e?s=250" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Blogger / Developer / Tech lover"
+  name             : "Cao The Toan"
+  avatar           : "https://vi.gravatar.com/userimage/61951009/bb836cdde1b1e321e083c8b3170aa047.png?s=250" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Developer"
   location         : "Hanoi, VN"
-  email            : "vietanh@vietanhdev.com"
-  uri              : "https://vietanhdev.com"
+  email            : "caothetoan@gmail.com"
+  uri              : "https://vnit.top"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "vietanhdev"
+  facebook         : "caothetoan"
   foursquare       :
-  github           : "vietanhdev"
+  github           : "caothetoan"
   google_plus      :
   keybase          :
   instagram        :
@@ -110,7 +110,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : # "https://youtube.com/c/caothetoan"
 
 # Reading Files
 include:
