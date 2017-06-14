@@ -18,7 +18,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 includes:
   - _pages
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 
 
@@ -26,7 +26,7 @@ words_per_minute         : 200
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "/aboutme/"
   Projects: "/projects/"
   Posts: "/posts/"
   Resources:
