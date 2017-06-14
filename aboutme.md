@@ -2,6 +2,8 @@
 layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
+header:
+  teaser: /assets/images/my-awesome-post-teaser.jpg
 ---
 
 My name is Cao The Toan. I'm a developer:
