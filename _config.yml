@@ -20,6 +20,21 @@ includes:
   - _pages
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  About Me: "aboutme"
+  Projects: "/projects/"
+  Posts: "/posts/"
+  Resources:
+    - Kenh360: "http://kenh360.com/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+ 
+
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
