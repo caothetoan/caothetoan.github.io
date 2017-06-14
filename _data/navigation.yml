@@ -1,13 +1,10 @@
 # main links
 main:
-  - title: "about me"
+  - title: "About"
     url: "/"
-  - title: "my projects"
+  - title: "Projects"
     url: "/projects/"
-  - title: "my posts"
+  - title: "Posts"
     url: "/posts/"
-  - title: "music i like"
-    url: "/music/"
-
   
   
