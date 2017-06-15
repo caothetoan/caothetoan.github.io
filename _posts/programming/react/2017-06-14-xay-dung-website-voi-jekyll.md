@@ -5,7 +5,7 @@ subtitle: "Chuyển website cá nhân từ Wordpress sang Jekyll"
 date:   2016-09-16
 categories: [Jekyll]
 tags: [Jekyll, website]
-permalink: /blogging/kinh-nghiem-tao-webiste-ca-nhan-voi-jekyll/
+permalink: /Jekyll/kinh-nghiem-tao-webiste-ca-nhan-voi-jekyll/
 bigimg: "/assets/img/blogging/jekyll/jekyllhomepage.png"
 ---
 
@@ -18,6 +18,8 @@ Fork (tạo một bản sao) mã nguồn Beautifull Jekyll về tài khoản Git
 Chỉnh sửa file _config.yml để tạo các thiết lập ban đầu cho website của bạn
 Quick-start Instructions
 
+{% highlight ruby linenos %}
+
 ~ $ gem install jekyll bundler
 
 ~ $ jekyll new my-awesome-site
@@ -26,6 +28,7 @@ Quick-start Instructions
 
 ~/my-awesome-site $ bundle exec jekyll serve
 
+{% endhighlight %}
 # => Now browse to http://localhost:4000
 
 https://jekyllrb.com/
@@ -71,6 +74,7 @@ Install additional gems
 To use this importer, you need to install these additional gems: `gem install unidecode sequel mysql2 htmlentities`
 
 To import your posts from a self-hosted WordPress installation, run:
+{% highlight ruby linenos %}
 
 $ ruby -rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::WordPress.run({
@@ -91,16 +95,20 @@ $ ruby -rubygems -e 'require "jekyll-import";
       "status"         => ["publish"]
     })'
 
+{% endhighlight %}
 http://import.jekyllrb.com/docs/wordpress/
 
 RSS
 
 To import your posts from an RSS feed (local or remote), run:
+{% highlight ruby linenos %}
 
 $ ruby -rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::RSS.run({
       "source" => "my_file.xml"
     })'
+
+{% endhighlight %}
 The source field is required and can be either a local file or a remote one.
 
  
