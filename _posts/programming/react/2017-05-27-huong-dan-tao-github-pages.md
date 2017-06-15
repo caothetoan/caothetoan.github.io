@@ -2,7 +2,7 @@
 layout: single
 title:  "Hướng dẫn tạo GitHub Pages"
 date:   2017-05-27
-categories: [react]
+categories: [GitHub]
 tags: ["GitHub Pages", "GitHub"]
 header:
   overlay_image: "/assets/img/webdev/contact-me.jpg"
@@ -30,20 +30,24 @@ git clone https://github.com/username/username.github.io
 ## Step 3. Hello World
 
 Chuyển đến thư mục project vừa clone và  add index.html file:
+
+{% highlight javascript linenos %}
 ~$ cd username.github.io
 
 ~$ echo "Hello World" > index.html
+{% endhighlight %}
 
 ## Step 4. Push it
 
 Add, commit, and push your changes:
 
- 
+{% highlight javascript linenos %}
 ~$ git add --all
 
 ~$ git commit -m "Initial commit"
 
 ~$ git push -u origin master
+{% endhighlight %}
 
 ## Step 5. Hoàn tất
 
