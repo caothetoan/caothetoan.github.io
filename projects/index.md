@@ -9,7 +9,54 @@ projects:
     buttons:
       - text: "Source code"
         link: "https://github.com/caothetoan/React-news"
- 
+  - title: "BiBot"
+    description: "A autonomous robot building with Raspberry Pi"
+    img: "http://vnit.top/wp-content/uploads/2017/06/2017-06-14_9-47-13.png"
+    buttons:
+      - text: "Source code"
+        link: "https://github.com/caothetoan/"
+  - title: "Kênh 360"
+    description: "Kênh công nghệ 360 Kenh360.com"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_01.png"
+    buttons:
+      - text: "Demo"
+        link: "https://Kenh360.com"
+  - title: "Hài 360"
+    description: "Trang ảnh chế video hài hai.kenh360.com"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_04.png"
+    buttons:
+      - text: "Demo"
+        link: "http://hai.kenh360.com"
+  - title: "Xinh 360"
+    description: "Trang ảnh gái xinh xinh.kenh360.com"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_05.png"
+    buttons:
+      - text: "Demo"
+        link: "http://xinh.kenh360.com"
+  - title: "Bắt chữ 360"
+    description: "Trang đuổi hình bắt chữ batchu.kenh360.com"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_06.png"
+    buttons:
+      - text: "Demo"
+        link: "http://batchu.kenh360.com/"
+  - title: "SSO id.go.vn"
+    description: "Hệ thống Single Sign On id.go.vn"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_07.png"
+    buttons:
+      - text: "Demo"
+        link: "https://id.go.vn"		
+  - title: "Du lịch 360"
+    description: "Khám phá ẩm thực văn hóa du lịch Việt Nam dulich.kenh360.com"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_08.png"
+    buttons:
+      - text: "Demo"
+        link: "http://dulich.kenh360.com"	
+  - title: "Flappy Bird 360"
+    description: "Game Flappy Bird trên nền web"
+    img: "https://caothetoan.github.io/assets/img/slider_photo_10.png"
+    buttons:
+      - text: "Demo"
+        link: "http://flappybird.kenh360.com"		
 ---
 
 <style media="screen">

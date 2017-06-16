@@ -10,7 +10,9 @@ author_profile: true
 
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+  <h2 id="{{ category | slugify }}" class="archive__subtitle">
+	<a href="{{ category | slugify | prepend: path_type | prepend: site.category_archive.path | absolute_url }}" class="page__taxonomy-item" rel="tag">{{ category }}</a>
+  </h2>
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
