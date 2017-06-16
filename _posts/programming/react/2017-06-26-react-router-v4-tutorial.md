@@ -2,6 +2,7 @@
 layout: single
 title: React Router v4 Tutorial
 subtitle: Xây dựng website với React Router
+categories: [React]
 bigimg: /img/path.jpg
 ---
 React Router v4 is a pure React rewrite of the popular package. The required route configuration from previous versions has been removed and everything is now “just components”.

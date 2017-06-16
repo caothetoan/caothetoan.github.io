@@ -3,21 +3,28 @@ layout: single
 title: my projects
 author_profile: true
 projects:
-  - title: "React News"
-    description: "A news website using React and NewsAPI.org"
-    img: "http://vnit.top/wp-content/uploads/2017/06/2017-06-14_9-47-13.png"
+  - title: "React Native News App"
+    description: "A news mobile app using React Native and NewsAPI.org"
+    img: "https://caothetoan.github.io/assets/img/news-app-react-native.png"
     buttons:
       - text: "Source code"
         link: "https://github.com/caothetoan/React-news"
+  - title: "React News App"
+    description: "A news website using React and NewsAPI.org"
+    img: "https://caothetoan.github.io/assets/img/news-react-app.png"
+    buttons:
+      - text: "Source code"
+        link: "https://github.com/caothetoan/React-native-news"
+		
   - title: "BiBot"
     description: "A autonomous robot building with Raspberry Pi"
-    img: "http://vnit.top/wp-content/uploads/2017/06/2017-06-14_9-47-13.png"
+    img: "https://caothetoan.github.io/assets/img/bibot-auto-robot.jpg"
     buttons:
       - text: "Source code"
         link: "https://github.com/caothetoan/"
   - title: "Kênh 360"
     description: "Kênh công nghệ 360 Kenh360.com"
-    img: "https://caothetoan.github.io/assets/img/slider_photo_01.png"
+    img: "https://caothetoan.github.io/assets/img/kenh360-web-app.png"
     buttons:
       - text: "Demo"
         link: "https://Kenh360.com"
@@ -57,6 +64,31 @@ projects:
     buttons:
       - text: "Demo"
         link: "http://flappybird.kenh360.com"		
+		
+  - title: "Chess 360"
+    description: "Game cờ vưa trên nền web sử dụng chess.js, AI"
+    img: "https://caothetoan.github.io/assets/img/chess-web-game.png"
+    buttons:
+      - text: "Demo"
+        link: "http://kenh360.com/chess"
+  - title: "Facebook Alexa Skill"
+    description: "Sử dụng voice control và AI để tương tác với Facebook qua Alexa device"
+    img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
+    buttons:
+      - text: "Demo"	
+		
+  - title: "Social IT"
+    description: "Mạng xã hội dành cho dân công nghệ Social IT Top "
+    img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
+    buttons:
+      - text: "Demo"
+	    link: "http://social.vnit.top"
+		
+  - title: "Facebook Alexa Skill"
+    description: "Sử dụng voice control và AI để tương tác với Facebook qua Alexa device"
+    img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
+    buttons:
+      - text: "Demo"
 ---
 
 <style media="screen">

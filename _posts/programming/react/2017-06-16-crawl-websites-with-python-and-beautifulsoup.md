@@ -1,13 +1,11 @@
 ---
 layout: single
 title: Crawl websites with Python and BeautifulSoup
-image: /img/hello_world.jpeg
-tags: [random, exciting-stuff]
+categories: [Python]
+tags: [Python, BeautifulSoup]
 header:
   teaser: /assets/images/my-awesome-post-teaser.jpg
 ---
-
-Getting Started
 
 We are going to use Python as our scraping language, together with a simple and powerful library, BeautifulSoup.
 
