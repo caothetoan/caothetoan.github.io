@@ -79,7 +79,7 @@ projects:
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
     buttons:
       - text: "Demo"
-	link: "http://social.vnit.top"
+      	link: "http://social.vnit.top"
   - title: "Facebook Alexa Skill"
     description: "Sử dụng voice control và AI để tương tác với Facebook qua Alexa device"
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
