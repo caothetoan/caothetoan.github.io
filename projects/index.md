@@ -50,20 +50,19 @@ projects:
     img: "https://caothetoan.github.io/assets/img/slider_photo_07.png"
     buttons:
       - text: "Demo"
-        link: "https://id.go.vn"		
+        link: "https://id.go.vn"
   - title: "Du lịch 360"
     description: "Khám phá ẩm thực văn hóa du lịch Việt Nam dulich.kenh360.com"
     img: "https://caothetoan.github.io/assets/img/slider_photo_08.png"
     buttons:
       - text: "Demo"
-        link: "http://dulich.kenh360.com"	
+        link: "http://dulich.kenh360.com"
   - title: "Flappy Bird 360"
     description: "Game Flappy Bird trên nền web"
     img: "https://caothetoan.github.io/assets/img/slider_photo_10.png"
     buttons:
       - text: "Demo"
-        link: "http://flappybird.kenh360.com"		
-		
+        link: "http://flappybird.kenh360.com"
   - title: "Chess 360"
     description: "Game cờ vưa trên nền web sử dụng chess.js, AI"
     img: "https://caothetoan.github.io/assets/img/chess-web-game.png"
@@ -80,7 +79,7 @@ projects:
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
     buttons:
       - text: "Demo"
-	    link: "http://social.vnit.top"
+	link: "http://social.vnit.top"
   - title: "Facebook Alexa Skill"
     description: "Sử dụng voice control và AI để tương tác với Facebook qua Alexa device"
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
