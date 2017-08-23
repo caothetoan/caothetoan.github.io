@@ -15,7 +15,6 @@ projects:
     buttons:
       - text: "Source code"
         link: "https://github.com/caothetoan/React-native-news"
-		
   - title: "BiBot"
     description: "A autonomous robot building with Raspberry Pi"
     img: "https://caothetoan.github.io/assets/img/bibot-auto-robot.jpg"
@@ -75,22 +74,19 @@ projects:
     description: "Sử dụng voice control và AI để tương tác với Facebook qua Alexa device"
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
     buttons:
-      - text: "Demo"	
-		
+      - text: "Demo"
   - title: "Social IT"
     description: "Mạng xã hội dành cho dân công nghệ Social IT Top "
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
     buttons:
       - text: "Demo"
 	    link: "http://social.vnit.top"
-		
   - title: "Facebook Alexa Skill"
     description: "Sử dụng voice control và AI để tương tác với Facebook qua Alexa device"
     img: "https://caothetoan.github.io/assets/img/facebook-alexa-skills.jpg"
     buttons:
       - text: "Demo"
 ---
-
 <style media="screen">
   .project {
     width: 50%;
